@@ -1,6 +1,7 @@
 /*
 * must be installed ACF & CF7
 * in ACF create "True/False" switcher "g_status" to be able on/off function -- get_field("g_status");
+* in ACF create "Num" field "g_paragraphs_count" to be able controll count of <p> -- get_field("g_paragraphs_count")
 * in CF7 create and setup form, then in code paste form ID -- do_shortcode('[contact-form-7 id="7"]')
 */
 function gate_post($content) {
